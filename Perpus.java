@@ -14,6 +14,7 @@ public class Perpus {
         if (lamaPinjam > 10) {
             System.out.println("Informasi: Buku harus segera dikembalikan!");
         }
+
     }
 
     void create() {
