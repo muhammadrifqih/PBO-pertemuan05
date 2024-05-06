@@ -16,7 +16,7 @@ public class Perpus {
         System.out.println("SELEcT * FROM ANGGOTA");
     }
 
-    void delete() {
-        System.out.println("DELETE FROM ANGGOTA");
+    void delete(int noAnggota) {
+        System.out.println("DELETE FROM ANGGOTA WHERE noAnggota =" + noAnggota);
     }
 }
