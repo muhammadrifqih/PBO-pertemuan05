@@ -10,6 +10,10 @@ public class Perpus {
         System.out.println("Nama: " + nama);
         System.out.println("Nama Buku: " + namaBuku);
         System.out.println("Lama Pinjam: " + lamaPinjam + " hari");
+
+        if (lamaPinjam > 10) {
+            System.out.println("Informasi: Buku harus segera dikembalikan!");
+        }
     }
 
     void create() {
